@@ -42,6 +42,19 @@ elif direction == "left":
         elif door == "blue":
             print("You enter a room of beasts. Game Over.")
         elif door == "yellow":
+            print('''
+             ___________
+            '._==_==_=_.'
+            .-\:      /-.
+           | (|:.     |) |
+            '-|:.     |-'
+              \::.    /
+               '::. .'
+                 ) (
+               _.' '._
+              `"""""""`''')
+            print("You found the treasure! You Win!")
+        
             print("You found the treasure! You Win!")
         else:
             print("You choose a door that does not exist. Game Over.")
